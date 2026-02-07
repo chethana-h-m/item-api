@@ -15,7 +15,7 @@ Tech Stack
 •	REST API
 API Endpoints
 Add Item (POST)
-POST http://localhost:8080/api/items
+POST http://localhost:8080/items
 Body:
 {
   "id": 4,
@@ -25,7 +25,7 @@ Body:
 }
 
 Get Item by ID (GET)
-GET http://localhost:8080/api/items/1
+GET http://localhost:8080/items/1
  Validation Example
 Request:
 {
@@ -44,4 +44,5 @@ Response:
 •	Uses system.properties
 •	Auto-detects PORT
 •	No database required
+
 
